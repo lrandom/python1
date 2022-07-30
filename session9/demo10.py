@@ -8,7 +8,7 @@ def hello3(x, y):
     tmp = None
     if x > 3:
         tmp = 'true'
-    elif (x < 3 and x > y):
+    elif x < 3:
         tmp = 'False'
 
     if x > y:
@@ -16,5 +16,6 @@ def hello3(x, y):
     else:
         return y
 
-print(hello2(1, 4)) #8
-print(hello3(1,4))
+
+print(hello2(1, 4))  # 8
+print(hello3(1, 4))
